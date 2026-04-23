@@ -1,0 +1,26 @@
+import sqlite3
+
+conexion = sqlite3.connect('Base1')
+
+cursor01 = conexion.cursor()    #con esto creamos la base de datos
+#cursor01.execute('''create table usuarios(
+#                 nombre varchar(20),
+#                 edad int,
+#                 direccion varchar(50),
+#                telefono numeric(9))''')
+
+#cursor01.execute("insert into usuarios values('Jose', 33, 'calle 1 Lote 285', 992142753)")
+
+mas_usuarios = [
+   
+   ('Pedro', 34, 'Calle 4 Lote 30', 999995521) ,
+   ('Juan', 39, 'Calle 3 Lote 12', 959995521) ,
+   ('Pablo', 36, 'Calle 1 Lote 22', 929495521) ,
+   ]
+
+cursor01.executemany('insert into usuarios values(?,?,?,?)', mas_usuarios) # los 4 signos ? representan los 4 columnas de la tabla BD.
+
+conexion.commit()
+
+
+conexion.close()
