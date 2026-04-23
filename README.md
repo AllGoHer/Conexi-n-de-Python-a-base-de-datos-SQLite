@@ -1,1 +1,1 @@
-# Conexión-de-Python-a-base-de-datos-SQLite  ![image](https://github.com/user-attachments/assets/d76c08d2-e23e-464b-becb-c937bb9a453a)  ![image](https://github.com/user-attachments/assets/ccc0ec70-5cf6-4f9b-971a-d9ee9439f248)
+# Conexión de Python a base de datos SQLite  ![image](https://github.com/user-attachments/assets/d76c08d2-e23e-464b-becb-c937bb9a453a)  ![image](https://github.com/user-attachments/assets/ccc0ec70-5cf6-4f9b-971a-d9ee9439f248)
