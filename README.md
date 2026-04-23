@@ -7,7 +7,9 @@ ________________________________________________________________________________
     Esto creará un archivo Base1, que conectará nuestro código python que generemos con la base de datos de SQLite.
 
 2.	SQLite
+   
 • Descargamos DB Browser SQLite y abrimos SQLite
+
 •	Segundo abrimos el archivo donde creamos la carpeta de trabajo vinculado al editor de código.
   ![image](https://github.com/user-attachments/assets/8b828849-31d0-4bc5-8449-9df72c97ab4a)
 
